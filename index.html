@@ -1,1 +1,83 @@
-<div class="fcard"><div class="ico">🔬</div><h3>Dp2⁺ 科研守護</h3><p>以「Dp2⁺」科研技術，做到根本調理，守護健康</p><a href="dp2.html" style="display:inline-block;margin-top:10px;font-weight:700;font-size:.9rem">了解更多 →</a></div>
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台中西區國良藥局 | 專業健康服務</title>
+<meta name="description" content="台中西區國良藥局提供專業藥品諮詢、處方調劑、慢性處方箋與過敏健康管理服務，守護您與家人的健康。電話 04-2201-8772。">
+<style>
+:root{--p:#0F766E;--p-dark:#115E59;--p-light:#F0FDFA;--p-mid:#14B8A6;--ink:#1F2937;--muted:#6B7280;--border:#E5E7EB;--line:#06C755;--bg:#FFFFFF}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",sans-serif;color:var(--ink);line-height:1.85;background:var(--bg)}
+a{text-decoration:none;color:var(--p)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.topbar{background:var(--p-dark);color:#fff;font-size:.82rem}
+.topbar .wrap{display:flex;gap:22px;flex-wrap:wrap;padding:6px 20px}
+.topbar span{opacity:.92}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--border)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;padding:10px 20px;gap:10px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px}
+.brand .mark{width:44px;height:44px;border-radius:50%;background:var(--p);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.3rem;font-weight:700}
+.brand .name{font-weight:700;font-size:1.1rem;line-height:1.3}
+.brand .name small{display:block;font-weight:400;color:var(--muted);font-size:.7rem;letter-spacing:.06em}
+nav{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+nav a{color:var(--ink);font-size:.95rem}
+nav a:hover{color:var(--p)}
+.btn{display:inline-block;background:var(--p);color:#fff;font-weight:700;padding:10px 22px;border-radius:8px;font-size:.95rem}
+.btn:hover{background:var(--p-dark);color:#fff}
+.btn.ghost{background:#fff;color:var(--p);border:1.5px solid var(--p)}
+.hero{background:linear-gradient(135deg,var(--p-light),#fff);padding:64px 0 48px;border-bottom:1px solid var(--border)}
+.hero .wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
+.badge{display:inline-block;background:var(--p-light);color:var(--p-dark);border:1px solid var(--p-mid);border-radius:999px;font-size:.8rem;font-weight:700;padding:4px 14px;margin-bottom:16px}
+.hero h1{font-size:2.3rem;line-height:1.35;margin-bottom:14px}
+.hero h1 em{font-style:normal;color:var(--p)}
+.hero p{color:var(--muted);max-width:560px;margin-bottom:24px}
+.hero .actions{display:flex;gap:12px;margin-bottom:30px}
+.chips{display:flex;gap:12px;flex-wrap:wrap}
+.chip{background:#fff;border:1px solid var(--border);border-radius:10px;padding:10px 16px;font-size:.85rem;font-weight:700;color:var(--p-dark)}
+.pharm-card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:28px;text-align:center;box-shadow:0 8px 24px rgba(15,118,110,.08)}
+.pharm-card .avatar{width:84px;height:84px;border-radius:50%;background:var(--p-light);color:var(--p);display:flex;align-items:center;justify-content:center;font-size:2rem;font-weight:700;margin:0 auto 14px}
+.pharm-card .photo{width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;margin:0 auto 14px;display:block;border:4px solid var(--p-light);box-shadow:0 4px 12px rgba(15,118,110,.15)}
+.pharm-card h3{font-size:1.1rem;margin-bottom:4px}
+.pharm-card p{color:var(--muted);font-size:.85rem}
+.section{padding:60px 0}
+.section.alt{background:var(--p-light)}
+.kicker{text-align:center;color:var(--p);font-weight:700;font-size:.9rem;letter-spacing:.1em;margin-bottom:6px}
+.section h2{text-align:center;font-size:1.7rem;margin-bottom:14px}
+.section .lead{text-align:center;color:var(--muted);max-width:720px;margin:0 auto 36px}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.fcard{background:#fff;border:1px solid var(--border);border-radius:14px;padding:24px}
+.fcard .ico{width:44px;height:44px;border-radius:10px;background:var(--p-light);color:var(--p);display:flex;align-items:center;justify-content:center;font-size:1.2rem;margin-bottom:12px}
+.fcard h3{font-size:1.02rem;margin-bottom:6px}
+.fcard p{color:var(--muted);font-size:.87rem}
+.acards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.acard{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.acard .tagbar{background:var(--p-light);color:var(--p-dark);font-size:.78rem;font-weight:700;padding:8px 18px}
+.acard .inner{padding:20px;display:flex;flex-direction:column;flex:1}
+.acard .meta{color:var(--muted);font-size:.78rem;margin-bottom:8px}
+.acard h3{font-size:1.05rem;line-height:1.5;margin-bottom:10px}
+.acard p{color:var(--muted);font-size:.88rem;flex:1}
+.acard a{font-weight:700;margin-top:14px;font-size:.9rem}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.about .text p{color:var(--muted);margin-bottom:14px}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.ccard{background:#fff;border:1px solid var(--border);border-radius:14px;padding:24px;text-align:center}
+.ccard .ico{font-size:1.5rem;margin-bottom:8px}
+.ccard h3{font-size:.95rem;margin-bottom:4px}
+.ccard p{color:var(--muted);font-size:.92rem}
+.btn-line{display:inline-block;background:var(--line);color:#fff;font-weight:700;padding:10px 26px;border-radius:999px;font-size:.95rem;margin-top:6px}
+article{max-width:760px;margin:0 auto;padding:46px 20px}
+article h1{font-size:1.6rem;line-height:1.5;margin-bottom:8px}
+article .meta{color:var(--muted);font-size:.85rem;margin-bottom:26px}
+article h2{color:var(--p-dark);font-size:1.2rem;margin:30px 0 10px;text-align:left}
+article p,article li{margin-bottom:12px;color:#374151}
+article ul{padding-left:24px}
+.notice{background:var(--p-light);border-left:5px solid var(--p);padding:14px 18px;margin:24px 0;font-size:.92rem;border-radius:0 8px 8px 0}
+.back{display:inline-block;margin-top:28px;font-weight:700}
+.divider{border:none;border-top:1px solid var(--border);max-width:760px;margin:10px auto}
+footer{background:#134E4A;color:#CBD5D3;padding:48px 0 24px;font-size:.9rem}
+footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1fr 1.2fr;gap:30px;margin-bottom:30px}
+footer h3{color:#fff;font-size:1rem;margin-bottom:12px}
+footer a{color:#CBD5D3;display:block;margin-bottom:6px}
+footer a:hover{color:#fff}
+footer .copy{border-top:1px solid rgba(255,255,255,.15);padding-top
